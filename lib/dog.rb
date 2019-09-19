@@ -4,8 +4,8 @@ class Dog
   
   @@all = []
   
-  def self.save(dog) 
-   @@all << dog.name
+  def self.save
+   @@all << seklf
   end
   
   def initialize (name)
