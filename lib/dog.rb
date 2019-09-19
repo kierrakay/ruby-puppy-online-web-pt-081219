@@ -12,7 +12,7 @@ class Dog
   end
   
   def print_all
-   self.artist_count
+   self.print_all
  @@artist_count = {}
 
   @@artists.group_by(&:itself).each {|k,v| @@artist_count[k] = v.count}
