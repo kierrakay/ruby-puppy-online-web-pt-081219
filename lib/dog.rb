@@ -19,6 +19,8 @@ end
 
 def print_all
   @@all.each do |name|
+    puts name
+  end
 end
 
 def clear_all
