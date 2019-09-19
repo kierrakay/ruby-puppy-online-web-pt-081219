@@ -11,7 +11,7 @@ class Dog
   def initialize (name)
     @name = name
     @@all << self
-    #self.save
+   Dog.save
   end
   
   def self.all
