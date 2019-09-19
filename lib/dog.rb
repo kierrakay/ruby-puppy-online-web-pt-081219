@@ -5,6 +5,7 @@ class Dog
   @@all = []
   
   def self.save 
+    @@all << self
     
   def initialize (name)
     @name = name
