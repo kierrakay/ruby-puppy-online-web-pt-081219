@@ -4,12 +4,13 @@ class Dog
   
   @@all = []
   
-  def self.save 
-    @@all << self
-    
+  #def self.save 
+  #  @@all << self
+  #end
   def initialize (name)
     @name = name
     @@all << self
+    #self.save
   end
   
   def self.all
