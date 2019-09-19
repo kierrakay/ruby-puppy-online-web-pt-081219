@@ -4,7 +4,7 @@ class Dog
   
   @@all = []
   
-  def self.save(dog) 
+  def self.save 
    @@all << dog.name
   end
   
