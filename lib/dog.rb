@@ -13,5 +13,6 @@ end
 
 def clear_all
   @@clear_all << @@all 
+  @@all
 end 
 end
