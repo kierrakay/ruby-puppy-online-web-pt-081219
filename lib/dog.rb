@@ -5,7 +5,7 @@ class Dog
   @@all = []
   
   def self.save
-   @@all << seklf
+   @@all << self
   end
   
   def initialize (name)
