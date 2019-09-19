@@ -28,4 +28,3 @@ def self.clear_all
 end 
 end
 
-end
