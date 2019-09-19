@@ -23,9 +23,7 @@ def print_all
   end
 end
 
-def clear_all
-  @@clear_all << @@all 
-  @@all
+def self.clear_all
 end 
 
 
